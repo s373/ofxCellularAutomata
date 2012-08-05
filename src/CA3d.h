@@ -57,10 +57,6 @@ public:
 			nextGrid[i] = temp;
 		}
 		
-		
-		//		int[] temp = currentGrid;
-		//		currentGrid = nextGrid;
-		//		nextGrid = temp;
 	}
 	
 	void setNextGrid(int x, int y,int z, float val) {

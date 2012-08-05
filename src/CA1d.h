@@ -38,10 +38,9 @@ public:
 		for (int x = 1; x < dim.x - 1; x++) {
 			int count = countCells(x);
 			setNextGrid(x, rules[count]);		
-//			cout << "i "<< x << " count " << count << " " << rules[count] << endl;			
 		}
 		
-		
+		//swap grids
 		int temp;
 		for(int i=0; i<dim.x; i++){
 			temp =  currentGrid[i] ;
@@ -50,9 +49,6 @@ public:
 		}
 
 		
-//		int[] temp = currentGrid;
-//		currentGrid = nextGrid;
-//		nextGrid = temp;
 	}
 	
 	void setNextGrid(int x, float val) {

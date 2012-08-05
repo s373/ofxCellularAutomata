@@ -29,7 +29,6 @@ public:
 	}
 	
 	void setCenter1() {
-//		currentGrid[(int) (dim.x * 0.5)] = 1;
 		currentGrid[(int) (dim.x * 0.5 + dim.y * 0.5 * dim.x)] = 1;
 
 	}
@@ -52,11 +51,7 @@ public:
 			currentGrid[i] = nextGrid[i];
 			nextGrid[i] = temp;
 		}
-		
-		
-		//		int[] temp = currentGrid;
-		//		currentGrid = nextGrid;
-		//		nextGrid = temp;
+				
 	}
 	
 	void setNextGrid(int x, int y, float val) {
