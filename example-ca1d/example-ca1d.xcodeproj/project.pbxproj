@@ -57,11 +57,80 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0088528C15CC46AA00DBB2AB /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme; path = ../../../addons/ofxCellularAutomata/readme; sourceTree = SOURCE_ROOT; };
-		0088528E15CC46AA00DBB2AB /* CA1d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CA1d.h; path = ../../../addons/ofxCellularAutomata/src/CA1d.h; sourceTree = SOURCE_ROOT; };
-		0088528F15CC46AA00DBB2AB /* CAdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAdata.h; path = ../../../addons/ofxCellularAutomata/src/CAdata.h; sourceTree = SOURCE_ROOT; };
-		0088529015CC46AA00DBB2AB /* ofxCellularAutomata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxCellularAutomata.h; path = ../../../addons/ofxCellularAutomata/src/ofxCellularAutomata.h; sourceTree = SOURCE_ROOT; };
-		008852D215CC8EF700DBB2AB /* CA2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CA2d.h; sourceTree = "<group>"; };
+		000882E815CE69EA00D20D43 /* COMMIT_EDITMSG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = COMMIT_EDITMSG; path = ../.git/COMMIT_EDITMSG; sourceTree = SOURCE_ROOT; };
+		000882E915CE69EB00D20D43 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config; path = ../.git/config; sourceTree = SOURCE_ROOT; };
+		000882EA15CE69EB00D20D43 /* description */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = description; path = ../.git/description; sourceTree = SOURCE_ROOT; };
+		000882EB15CE69EB00D20D43 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HEAD; path = ../.git/HEAD; sourceTree = SOURCE_ROOT; };
+		000882ED15CE69EB00D20D43 /* applypatch-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "applypatch-msg.sample"; path = "../.git/hooks/applypatch-msg.sample"; sourceTree = SOURCE_ROOT; };
+		000882EE15CE69EC00D20D43 /* commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "commit-msg.sample"; path = "../.git/hooks/commit-msg.sample"; sourceTree = SOURCE_ROOT; };
+		000882EF15CE69EC00D20D43 /* post-update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "post-update.sample"; path = "../.git/hooks/post-update.sample"; sourceTree = SOURCE_ROOT; };
+		000882F015CE69EC00D20D43 /* pre-applypatch.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "pre-applypatch.sample"; path = "../.git/hooks/pre-applypatch.sample"; sourceTree = SOURCE_ROOT; };
+		000882F115CE69EC00D20D43 /* pre-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "pre-commit.sample"; path = "../.git/hooks/pre-commit.sample"; sourceTree = SOURCE_ROOT; };
+		000882F215CE69EC00D20D43 /* pre-rebase.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "pre-rebase.sample"; path = "../.git/hooks/pre-rebase.sample"; sourceTree = SOURCE_ROOT; };
+		000882F315CE69EC00D20D43 /* prepare-commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "prepare-commit-msg.sample"; path = "../.git/hooks/prepare-commit-msg.sample"; sourceTree = SOURCE_ROOT; };
+		000882F415CE69EC00D20D43 /* update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = update.sample; path = ../.git/hooks/update.sample; sourceTree = SOURCE_ROOT; };
+		000882F515CE69ED00D20D43 /* index */ = {isa = PBXFileReference; lastKnownFileType = file; name = index; path = ../.git/index; sourceTree = SOURCE_ROOT; };
+		000882F715CE69ED00D20D43 /* exclude */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = exclude; path = ../.git/info/exclude; sourceTree = SOURCE_ROOT; };
+		000882F915CE69EE00D20D43 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = HEAD; path = ../.git/logs/HEAD; sourceTree = SOURCE_ROOT; };
+		000882FC15CE69EE00D20D43 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = master; path = ../.git/logs/refs/heads/master; sourceTree = SOURCE_ROOT; };
+		000882FF15CE69EE00D20D43 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = master; path = ../.git/logs/refs/remotes/origin/master; sourceTree = SOURCE_ROOT; };
+		0008830215CE69EF00D20D43 /* 22bc33741a5ad93c3f6693604ab9874cb82c15 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 22bc33741a5ad93c3f6693604ab9874cb82c15; path = ../.git/objects/07/22bc33741a5ad93c3f6693604ab9874cb82c15; sourceTree = SOURCE_ROOT; };
+		0008830415CE69EF00D20D43 /* 9f2b1ae8ff340a679fbe64631154100711ceaf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 9f2b1ae8ff340a679fbe64631154100711ceaf; path = ../.git/objects/08/9f2b1ae8ff340a679fbe64631154100711ceaf; sourceTree = SOURCE_ROOT; };
+		0008830615CE69EF00D20D43 /* add1e1c64ff10e40a8b36e71b40e96200d1888 */ = {isa = PBXFileReference; lastKnownFileType = file; name = add1e1c64ff10e40a8b36e71b40e96200d1888; path = ../.git/objects/0c/add1e1c64ff10e40a8b36e71b40e96200d1888; sourceTree = SOURCE_ROOT; };
+		0008830815CE69F000D20D43 /* 4f9d1d53a51ab72788a4904e31908163aa641e */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4f9d1d53a51ab72788a4904e31908163aa641e; path = ../.git/objects/0e/4f9d1d53a51ab72788a4904e31908163aa641e; sourceTree = SOURCE_ROOT; };
+		0008830A15CE69F000D20D43 /* ffab00658f3a088b775cd1af995d4e7c42d5e5 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ffab00658f3a088b775cd1af995d4e7c42d5e5; path = ../.git/objects/15/ffab00658f3a088b775cd1af995d4e7c42d5e5; sourceTree = SOURCE_ROOT; };
+		0008830C15CE69F000D20D43 /* 855400271f7a4589f68ff5271c7bcfb37d5b4d */ = {isa = PBXFileReference; lastKnownFileType = file; name = 855400271f7a4589f68ff5271c7bcfb37d5b4d; path = ../.git/objects/28/855400271f7a4589f68ff5271c7bcfb37d5b4d; sourceTree = SOURCE_ROOT; };
+		0008830E15CE69F000D20D43 /* 90cb51c455e0309ade645f90c605c494dfd78b */ = {isa = PBXFileReference; lastKnownFileType = file; name = 90cb51c455e0309ade645f90c605c494dfd78b; path = ../.git/objects/32/90cb51c455e0309ade645f90c605c494dfd78b; sourceTree = SOURCE_ROOT; };
+		0008831015CE69F000D20D43 /* b74cf0cecc10ca74332f72ab5161d6256a3124 */ = {isa = PBXFileReference; lastKnownFileType = file; name = b74cf0cecc10ca74332f72ab5161d6256a3124; path = ../.git/objects/33/b74cf0cecc10ca74332f72ab5161d6256a3124; sourceTree = SOURCE_ROOT; };
+		0008831215CE69F000D20D43 /* 773b26a29a63589f8e495e63177b4e72708dd0 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 773b26a29a63589f8e495e63177b4e72708dd0; path = ../.git/objects/41/773b26a29a63589f8e495e63177b4e72708dd0; sourceTree = SOURCE_ROOT; };
+		0008831315CE69F100D20D43 /* 8421af3cc0047512f22b8413e8d321d42beb4b */ = {isa = PBXFileReference; lastKnownFileType = file; name = 8421af3cc0047512f22b8413e8d321d42beb4b; path = ../.git/objects/41/8421af3cc0047512f22b8413e8d321d42beb4b; sourceTree = SOURCE_ROOT; };
+		0008831415CE69F100D20D43 /* cb144300ed187cd5e3a6b4db23fefa7c13ffbe */ = {isa = PBXFileReference; lastKnownFileType = file; name = cb144300ed187cd5e3a6b4db23fefa7c13ffbe; path = ../.git/objects/41/cb144300ed187cd5e3a6b4db23fefa7c13ffbe; sourceTree = SOURCE_ROOT; };
+		0008831615CE69F100D20D43 /* 2c0b1ebc15555c427419421a7a31a9f2c22eaa */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2c0b1ebc15555c427419421a7a31a9f2c22eaa; path = ../.git/objects/4a/2c0b1ebc15555c427419421a7a31a9f2c22eaa; sourceTree = SOURCE_ROOT; };
+		0008831815CE69F100D20D43 /* bd2d612e05a9a13972679ab93832af325d8986 */ = {isa = PBXFileReference; lastKnownFileType = file; name = bd2d612e05a9a13972679ab93832af325d8986; path = ../.git/objects/4b/bd2d612e05a9a13972679ab93832af325d8986; sourceTree = SOURCE_ROOT; };
+		0008831A15CE69F100D20D43 /* 08ddfcf53c02e82d7eee2e57c38e5672ef89f6 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 08ddfcf53c02e82d7eee2e57c38e5672ef89f6; path = ../.git/objects/50/08ddfcf53c02e82d7eee2e57c38e5672ef89f6; sourceTree = SOURCE_ROOT; };
+		0008831C15CE69F100D20D43 /* 1ab44346c0c9335c33cbf3b5c05a8b1cc7188b */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1ab44346c0c9335c33cbf3b5c05a8b1cc7188b; path = ../.git/objects/56/1ab44346c0c9335c33cbf3b5c05a8b1cc7188b; sourceTree = SOURCE_ROOT; };
+		0008831E15CE69F100D20D43 /* ee983f412819bc33356fe2778a3a9b49b4bf84 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ee983f412819bc33356fe2778a3a9b49b4bf84; path = ../.git/objects/64/ee983f412819bc33356fe2778a3a9b49b4bf84; sourceTree = SOURCE_ROOT; };
+		0008832015CE69F100D20D43 /* 50ab6d61ff720f503ee12191e65258f6e2405a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = 50ab6d61ff720f503ee12191e65258f6e2405a; path = ../.git/objects/66/50ab6d61ff720f503ee12191e65258f6e2405a; sourceTree = SOURCE_ROOT; };
+		0008832115CE69F200D20D43 /* 8a246211eac5cb2bc5cda60e3d92b7f4e1d0ae */ = {isa = PBXFileReference; lastKnownFileType = file; name = 8a246211eac5cb2bc5cda60e3d92b7f4e1d0ae; path = ../.git/objects/66/8a246211eac5cb2bc5cda60e3d92b7f4e1d0ae; sourceTree = SOURCE_ROOT; };
+		0008832215CE69F200D20D43 /* e2e89d977c5e84898fbfd7c13d1649860b1550 */ = {isa = PBXFileReference; lastKnownFileType = file; name = e2e89d977c5e84898fbfd7c13d1649860b1550; path = ../.git/objects/66/e2e89d977c5e84898fbfd7c13d1649860b1550; sourceTree = SOURCE_ROOT; };
+		0008832415CE69F200D20D43 /* 9d9cab95e6e7160b2105cf054c5ec0a7d7a031 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 9d9cab95e6e7160b2105cf054c5ec0a7d7a031; path = ../.git/objects/68/9d9cab95e6e7160b2105cf054c5ec0a7d7a031; sourceTree = SOURCE_ROOT; };
+		0008832615CE69F200D20D43 /* d13294d7c337cab03025639d830668e247750f */ = {isa = PBXFileReference; lastKnownFileType = file; name = d13294d7c337cab03025639d830668e247750f; path = ../.git/objects/6b/d13294d7c337cab03025639d830668e247750f; sourceTree = SOURCE_ROOT; };
+		0008832815CE69F200D20D43 /* a9a27435bbcd424309eabeef28027f6d93e1ed */ = {isa = PBXFileReference; lastKnownFileType = file; name = a9a27435bbcd424309eabeef28027f6d93e1ed; path = ../.git/objects/6f/a9a27435bbcd424309eabeef28027f6d93e1ed; sourceTree = SOURCE_ROOT; };
+		0008832A15CE69F200D20D43 /* 847d6ec45a156b809646016b3d9cd8a55ca931 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 847d6ec45a156b809646016b3d9cd8a55ca931; path = ../.git/objects/7c/847d6ec45a156b809646016b3d9cd8a55ca931; sourceTree = SOURCE_ROOT; };
+		0008832C15CE69F200D20D43 /* 4a6bb05839d6358792c5601c6cd59b1fe98fd2 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4a6bb05839d6358792c5601c6cd59b1fe98fd2; path = ../.git/objects/7f/4a6bb05839d6358792c5601c6cd59b1fe98fd2; sourceTree = SOURCE_ROOT; };
+		0008832E15CE69F200D20D43 /* a42a614b4f1f810324acdc7e1aa9d587330a6b */ = {isa = PBXFileReference; lastKnownFileType = file; name = a42a614b4f1f810324acdc7e1aa9d587330a6b; path = ../.git/objects/81/a42a614b4f1f810324acdc7e1aa9d587330a6b; sourceTree = SOURCE_ROOT; };
+		0008833015CE69F300D20D43 /* c0b0f4b9fe3a6f06d5d8273b8b129b747aef7d */ = {isa = PBXFileReference; lastKnownFileType = file; name = c0b0f4b9fe3a6f06d5d8273b8b129b747aef7d; path = ../.git/objects/86/c0b0f4b9fe3a6f06d5d8273b8b129b747aef7d; sourceTree = SOURCE_ROOT; };
+		0008833215CE69F300D20D43 /* 332c9d51607f8f92339ec542b22b72e7c71a9e */ = {isa = PBXFileReference; lastKnownFileType = file; name = 332c9d51607f8f92339ec542b22b72e7c71a9e; path = ../.git/objects/8b/332c9d51607f8f92339ec542b22b72e7c71a9e; sourceTree = SOURCE_ROOT; };
+		0008833415CE69F300D20D43 /* 1d7977bcd5bfe68cd1b5c5458fa34a341802fe */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1d7977bcd5bfe68cd1b5c5458fa34a341802fe; path = ../.git/objects/8c/1d7977bcd5bfe68cd1b5c5458fa34a341802fe; sourceTree = SOURCE_ROOT; };
+		0008833515CE69F300D20D43 /* f393d2f3534d50520aaaf1f33ca63c46482eb0 */ = {isa = PBXFileReference; lastKnownFileType = file; name = f393d2f3534d50520aaaf1f33ca63c46482eb0; path = ../.git/objects/8c/f393d2f3534d50520aaaf1f33ca63c46482eb0; sourceTree = SOURCE_ROOT; };
+		0008833715CE69F300D20D43 /* 196c1a9045ce176930b824e077bbcb8306da51 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 196c1a9045ce176930b824e077bbcb8306da51; path = ../.git/objects/8d/196c1a9045ce176930b824e077bbcb8306da51; sourceTree = SOURCE_ROOT; };
+		0008833915CE69F300D20D43 /* 2db7ba3e2eff91f4370da4fc8dff9a41502518 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2db7ba3e2eff91f4370da4fc8dff9a41502518; path = ../.git/objects/90/2db7ba3e2eff91f4370da4fc8dff9a41502518; sourceTree = SOURCE_ROOT; };
+		0008833B15CE69F400D20D43 /* adc874f02a478e3951fed2ef8a0ed89a3807d6 */ = {isa = PBXFileReference; lastKnownFileType = file; name = adc874f02a478e3951fed2ef8a0ed89a3807d6; path = ../.git/objects/97/adc874f02a478e3951fed2ef8a0ed89a3807d6; sourceTree = SOURCE_ROOT; };
+		0008833D15CE69F400D20D43 /* 54aed89707db69f1e5eb65874644c82a091900 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 54aed89707db69f1e5eb65874644c82a091900; path = ../.git/objects/aa/54aed89707db69f1e5eb65874644c82a091900; sourceTree = SOURCE_ROOT; };
+		0008833F15CE69F400D20D43 /* afbaa035f5b8cd56be9ef9eb5a6a98fdeb2475 */ = {isa = PBXFileReference; lastKnownFileType = file; name = afbaa035f5b8cd56be9ef9eb5a6a98fdeb2475; path = ../.git/objects/b3/afbaa035f5b8cd56be9ef9eb5a6a98fdeb2475; sourceTree = SOURCE_ROOT; };
+		0008834115CE69F400D20D43 /* 9d658863b7fad33a6d06adc1eca10d819f9d51 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 9d658863b7fad33a6d06adc1eca10d819f9d51; path = ../.git/objects/b6/9d658863b7fad33a6d06adc1eca10d819f9d51; sourceTree = SOURCE_ROOT; };
+		0008834315CE69F400D20D43 /* 7d2870a6aec1ed4a416d4a887a096dd875267d */ = {isa = PBXFileReference; lastKnownFileType = file; name = 7d2870a6aec1ed4a416d4a887a096dd875267d; path = ../.git/objects/b8/7d2870a6aec1ed4a416d4a887a096dd875267d; sourceTree = SOURCE_ROOT; };
+		0008834515CE69F400D20D43 /* 4eba2f62ed98aa4efb93f6bd809064d8919b35 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4eba2f62ed98aa4efb93f6bd809064d8919b35; path = ../.git/objects/b9/4eba2f62ed98aa4efb93f6bd809064d8919b35; sourceTree = SOURCE_ROOT; };
+		0008834715CE69F500D20D43 /* bf672fe7e134788c89c62df298a6d64a7abe6d */ = {isa = PBXFileReference; lastKnownFileType = file; name = bf672fe7e134788c89c62df298a6d64a7abe6d; path = ../.git/objects/bb/bf672fe7e134788c89c62df298a6d64a7abe6d; sourceTree = SOURCE_ROOT; };
+		0008834915CE69F500D20D43 /* 0adad441003aeeee25c31017104cc3c8d17bfb */ = {isa = PBXFileReference; lastKnownFileType = file; name = 0adad441003aeeee25c31017104cc3c8d17bfb; path = ../.git/objects/bd/0adad441003aeeee25c31017104cc3c8d17bfb; sourceTree = SOURCE_ROOT; };
+		0008834B15CE69F500D20D43 /* 99f9d4578904e0eaa3fa6ebfd707cb81ed9da5 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 99f9d4578904e0eaa3fa6ebfd707cb81ed9da5; path = ../.git/objects/be/99f9d4578904e0eaa3fa6ebfd707cb81ed9da5; sourceTree = SOURCE_ROOT; };
+		0008834D15CE69F500D20D43 /* 0b9e5569773a9a92fb77bff4b172546f25eefa */ = {isa = PBXFileReference; lastKnownFileType = file; name = 0b9e5569773a9a92fb77bff4b172546f25eefa; path = ../.git/objects/c1/0b9e5569773a9a92fb77bff4b172546f25eefa; sourceTree = SOURCE_ROOT; };
+		0008834F15CE69F600D20D43 /* 68a9fb7f3bc150cf26a661d6d9f3ce63eaf72d */ = {isa = PBXFileReference; lastKnownFileType = file; name = 68a9fb7f3bc150cf26a661d6d9f3ce63eaf72d; path = ../.git/objects/d0/68a9fb7f3bc150cf26a661d6d9f3ce63eaf72d; sourceTree = SOURCE_ROOT; };
+		0008835115CE69F600D20D43 /* f784c23d2727ddf5d64679cd8577b53d34d3eb */ = {isa = PBXFileReference; lastKnownFileType = file; name = f784c23d2727ddf5d64679cd8577b53d34d3eb; path = ../.git/objects/da/f784c23d2727ddf5d64679cd8577b53d34d3eb; sourceTree = SOURCE_ROOT; };
+		0008835315CE69F600D20D43 /* 43530dabf29f9bdbd477559da970b3657cbabb */ = {isa = PBXFileReference; lastKnownFileType = file; name = 43530dabf29f9bdbd477559da970b3657cbabb; path = ../.git/objects/dd/43530dabf29f9bdbd477559da970b3657cbabb; sourceTree = SOURCE_ROOT; };
+		0008835515CE69F600D20D43 /* 2e42edd0b248963a6477987d3a6b2cfb6ef6c3 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 2e42edd0b248963a6477987d3a6b2cfb6ef6c3; path = ../.git/objects/e3/2e42edd0b248963a6477987d3a6b2cfb6ef6c3; sourceTree = SOURCE_ROOT; };
+		0008835715CE69F600D20D43 /* db5550a6b84d5f929148a4e4e5053fc59bf7c7 */ = {isa = PBXFileReference; lastKnownFileType = file; name = db5550a6b84d5f929148a4e4e5053fc59bf7c7; path = ../.git/objects/e5/db5550a6b84d5f929148a4e4e5053fc59bf7c7; sourceTree = SOURCE_ROOT; };
+		0008835915CE69F600D20D43 /* 96414fda7ac80ec0459d1de540083568ff3135 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 96414fda7ac80ec0459d1de540083568ff3135; path = ../.git/objects/e7/96414fda7ac80ec0459d1de540083568ff3135; sourceTree = SOURCE_ROOT; };
+		0008835B15CE69F600D20D43 /* 75f7bdc415565e8f608fd246bcedd1fc8ba59b */ = {isa = PBXFileReference; lastKnownFileType = file; name = 75f7bdc415565e8f608fd246bcedd1fc8ba59b; path = ../.git/objects/fb/75f7bdc415565e8f608fd246bcedd1fc8ba59b; sourceTree = SOURCE_ROOT; };
+		0008835D15CE69F600D20D43 /* 9f8a4d391568b06975aaac11bbe3964a5ee216 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 9f8a4d391568b06975aaac11bbe3964a5ee216; path = ../.git/objects/fd/9f8a4d391568b06975aaac11bbe3964a5ee216; sourceTree = SOURCE_ROOT; };
+		0008836215CE69F600D20D43 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = master; path = ../.git/refs/heads/master; sourceTree = SOURCE_ROOT; };
+		0008836515CE69F700D20D43 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = master; path = ../.git/refs/remotes/origin/master; sourceTree = SOURCE_ROOT; };
+		0008839815CE69F700D20D43 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = readme; path = ../readme; sourceTree = SOURCE_ROOT; };
+		0008839A15CE69F700D20D43 /* CA1d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CA1d.h; path = ../src/CA1d.h; sourceTree = SOURCE_ROOT; };
+		0008839B15CE69F700D20D43 /* CA2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CA2d.h; path = ../src/CA2d.h; sourceTree = SOURCE_ROOT; };
+		0008839C15CE69F700D20D43 /* CA3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CA3d.h; path = ../src/CA3d.h; sourceTree = SOURCE_ROOT; };
+		0008839D15CE69F700D20D43 /* CAdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAdata.h; path = ../src/CAdata.h; sourceTree = SOURCE_ROOT; };
+		0008839E15CE69F700D20D43 /* ofxCellularAutomata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxCellularAutomata.h; path = ../src/ofxCellularAutomata.h; sourceTree = SOURCE_ROOT; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -110,32 +179,650 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0088528B15CC46AA00DBB2AB /* ofxCellularAutomata */ = {
+		000882E515CE69EA00D20D43 /* ofxCellularAutomata */ = {
 			isa = PBXGroup;
 			children = (
-				0088528C15CC46AA00DBB2AB /* readme */,
-				0088528D15CC46AA00DBB2AB /* src */,
+				000882E615CE69EA00D20D43 /* .git */,
+				0008839815CE69F700D20D43 /* readme */,
+				0008839915CE69F700D20D43 /* src */,
 			);
 			name = ofxCellularAutomata;
-			path = ../../../addons/ofxCellularAutomata;
+			path = ..;
 			sourceTree = SOURCE_ROOT;
 		};
-		0088528D15CC46AA00DBB2AB /* src */ = {
+		000882E615CE69EA00D20D43 /* .git */ = {
 			isa = PBXGroup;
 			children = (
-				0088528E15CC46AA00DBB2AB /* CA1d.h */,
-				0088528F15CC46AA00DBB2AB /* CAdata.h */,
-				0088529015CC46AA00DBB2AB /* ofxCellularAutomata.h */,
-				008852D215CC8EF700DBB2AB /* CA2d.h */,
+				000882E715CE69EA00D20D43 /* branches */,
+				000882E815CE69EA00D20D43 /* COMMIT_EDITMSG */,
+				000882E915CE69EB00D20D43 /* config */,
+				000882EA15CE69EB00D20D43 /* description */,
+				000882EB15CE69EB00D20D43 /* HEAD */,
+				000882EC15CE69EB00D20D43 /* hooks */,
+				000882F515CE69ED00D20D43 /* index */,
+				000882F615CE69ED00D20D43 /* info */,
+				000882F815CE69ED00D20D43 /* logs */,
+				0008830015CE69EE00D20D43 /* objects */,
+				0008836015CE69F600D20D43 /* refs */,
+			);
+			name = .git;
+			path = ../.git;
+			sourceTree = SOURCE_ROOT;
+		};
+		000882E715CE69EA00D20D43 /* branches */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = branches;
+			path = ../.git/branches;
+			sourceTree = SOURCE_ROOT;
+		};
+		000882EC15CE69EB00D20D43 /* hooks */ = {
+			isa = PBXGroup;
+			children = (
+				000882ED15CE69EB00D20D43 /* applypatch-msg.sample */,
+				000882EE15CE69EC00D20D43 /* commit-msg.sample */,
+				000882EF15CE69EC00D20D43 /* post-update.sample */,
+				000882F015CE69EC00D20D43 /* pre-applypatch.sample */,
+				000882F115CE69EC00D20D43 /* pre-commit.sample */,
+				000882F215CE69EC00D20D43 /* pre-rebase.sample */,
+				000882F315CE69EC00D20D43 /* prepare-commit-msg.sample */,
+				000882F415CE69EC00D20D43 /* update.sample */,
+			);
+			name = hooks;
+			path = ../.git/hooks;
+			sourceTree = SOURCE_ROOT;
+		};
+		000882F615CE69ED00D20D43 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				000882F715CE69ED00D20D43 /* exclude */,
+			);
+			name = info;
+			path = ../.git/info;
+			sourceTree = SOURCE_ROOT;
+		};
+		000882F815CE69ED00D20D43 /* logs */ = {
+			isa = PBXGroup;
+			children = (
+				000882F915CE69EE00D20D43 /* HEAD */,
+				000882FA15CE69EE00D20D43 /* refs */,
+			);
+			name = logs;
+			path = ../.git/logs;
+			sourceTree = SOURCE_ROOT;
+		};
+		000882FA15CE69EE00D20D43 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				000882FB15CE69EE00D20D43 /* heads */,
+				000882FD15CE69EE00D20D43 /* remotes */,
+			);
+			name = refs;
+			path = ../.git/logs/refs;
+			sourceTree = SOURCE_ROOT;
+		};
+		000882FB15CE69EE00D20D43 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				000882FC15CE69EE00D20D43 /* master */,
+			);
+			name = heads;
+			path = ../.git/logs/refs/heads;
+			sourceTree = SOURCE_ROOT;
+		};
+		000882FD15CE69EE00D20D43 /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+				000882FE15CE69EE00D20D43 /* origin */,
+			);
+			name = remotes;
+			path = ../.git/logs/refs/remotes;
+			sourceTree = SOURCE_ROOT;
+		};
+		000882FE15CE69EE00D20D43 /* origin */ = {
+			isa = PBXGroup;
+			children = (
+				000882FF15CE69EE00D20D43 /* master */,
+			);
+			name = origin;
+			path = ../.git/logs/refs/remotes/origin;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008830015CE69EE00D20D43 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				0008830115CE69EE00D20D43 /* 07 */,
+				0008830315CE69EF00D20D43 /* 08 */,
+				0008830515CE69EF00D20D43 /* 0c */,
+				0008830715CE69EF00D20D43 /* 0e */,
+				0008830915CE69F000D20D43 /* 15 */,
+				0008830B15CE69F000D20D43 /* 28 */,
+				0008830D15CE69F000D20D43 /* 32 */,
+				0008830F15CE69F000D20D43 /* 33 */,
+				0008831115CE69F000D20D43 /* 41 */,
+				0008831515CE69F100D20D43 /* 4a */,
+				0008831715CE69F100D20D43 /* 4b */,
+				0008831915CE69F100D20D43 /* 50 */,
+				0008831B15CE69F100D20D43 /* 56 */,
+				0008831D15CE69F100D20D43 /* 64 */,
+				0008831F15CE69F100D20D43 /* 66 */,
+				0008832315CE69F200D20D43 /* 68 */,
+				0008832515CE69F200D20D43 /* 6b */,
+				0008832715CE69F200D20D43 /* 6f */,
+				0008832915CE69F200D20D43 /* 7c */,
+				0008832B15CE69F200D20D43 /* 7f */,
+				0008832D15CE69F200D20D43 /* 81 */,
+				0008832F15CE69F200D20D43 /* 86 */,
+				0008833115CE69F300D20D43 /* 8b */,
+				0008833315CE69F300D20D43 /* 8c */,
+				0008833615CE69F300D20D43 /* 8d */,
+				0008833815CE69F300D20D43 /* 90 */,
+				0008833A15CE69F300D20D43 /* 97 */,
+				0008833C15CE69F400D20D43 /* aa */,
+				0008833E15CE69F400D20D43 /* b3 */,
+				0008834015CE69F400D20D43 /* b6 */,
+				0008834215CE69F400D20D43 /* b8 */,
+				0008834415CE69F400D20D43 /* b9 */,
+				0008834615CE69F400D20D43 /* bb */,
+				0008834815CE69F500D20D43 /* bd */,
+				0008834A15CE69F500D20D43 /* be */,
+				0008834C15CE69F500D20D43 /* c1 */,
+				0008834E15CE69F600D20D43 /* d0 */,
+				0008835015CE69F600D20D43 /* da */,
+				0008835215CE69F600D20D43 /* dd */,
+				0008835415CE69F600D20D43 /* e3 */,
+				0008835615CE69F600D20D43 /* e5 */,
+				0008835815CE69F600D20D43 /* e7 */,
+				0008835A15CE69F600D20D43 /* fb */,
+				0008835C15CE69F600D20D43 /* fd */,
+				0008835E15CE69F600D20D43 /* info */,
+				0008835F15CE69F600D20D43 /* pack */,
+			);
+			name = objects;
+			path = ../.git/objects;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008830115CE69EE00D20D43 /* 07 */ = {
+			isa = PBXGroup;
+			children = (
+				0008830215CE69EF00D20D43 /* 22bc33741a5ad93c3f6693604ab9874cb82c15 */,
+			);
+			name = 07;
+			path = ../.git/objects/07;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008830315CE69EF00D20D43 /* 08 */ = {
+			isa = PBXGroup;
+			children = (
+				0008830415CE69EF00D20D43 /* 9f2b1ae8ff340a679fbe64631154100711ceaf */,
+			);
+			name = 08;
+			path = ../.git/objects/08;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008830515CE69EF00D20D43 /* 0c */ = {
+			isa = PBXGroup;
+			children = (
+				0008830615CE69EF00D20D43 /* add1e1c64ff10e40a8b36e71b40e96200d1888 */,
+			);
+			name = 0c;
+			path = ../.git/objects/0c;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008830715CE69EF00D20D43 /* 0e */ = {
+			isa = PBXGroup;
+			children = (
+				0008830815CE69F000D20D43 /* 4f9d1d53a51ab72788a4904e31908163aa641e */,
+			);
+			name = 0e;
+			path = ../.git/objects/0e;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008830915CE69F000D20D43 /* 15 */ = {
+			isa = PBXGroup;
+			children = (
+				0008830A15CE69F000D20D43 /* ffab00658f3a088b775cd1af995d4e7c42d5e5 */,
+			);
+			name = 15;
+			path = ../.git/objects/15;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008830B15CE69F000D20D43 /* 28 */ = {
+			isa = PBXGroup;
+			children = (
+				0008830C15CE69F000D20D43 /* 855400271f7a4589f68ff5271c7bcfb37d5b4d */,
+			);
+			name = 28;
+			path = ../.git/objects/28;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008830D15CE69F000D20D43 /* 32 */ = {
+			isa = PBXGroup;
+			children = (
+				0008830E15CE69F000D20D43 /* 90cb51c455e0309ade645f90c605c494dfd78b */,
+			);
+			name = 32;
+			path = ../.git/objects/32;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008830F15CE69F000D20D43 /* 33 */ = {
+			isa = PBXGroup;
+			children = (
+				0008831015CE69F000D20D43 /* b74cf0cecc10ca74332f72ab5161d6256a3124 */,
+			);
+			name = 33;
+			path = ../.git/objects/33;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008831115CE69F000D20D43 /* 41 */ = {
+			isa = PBXGroup;
+			children = (
+				0008831215CE69F000D20D43 /* 773b26a29a63589f8e495e63177b4e72708dd0 */,
+				0008831315CE69F100D20D43 /* 8421af3cc0047512f22b8413e8d321d42beb4b */,
+				0008831415CE69F100D20D43 /* cb144300ed187cd5e3a6b4db23fefa7c13ffbe */,
+			);
+			name = 41;
+			path = ../.git/objects/41;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008831515CE69F100D20D43 /* 4a */ = {
+			isa = PBXGroup;
+			children = (
+				0008831615CE69F100D20D43 /* 2c0b1ebc15555c427419421a7a31a9f2c22eaa */,
+			);
+			name = 4a;
+			path = ../.git/objects/4a;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008831715CE69F100D20D43 /* 4b */ = {
+			isa = PBXGroup;
+			children = (
+				0008831815CE69F100D20D43 /* bd2d612e05a9a13972679ab93832af325d8986 */,
+			);
+			name = 4b;
+			path = ../.git/objects/4b;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008831915CE69F100D20D43 /* 50 */ = {
+			isa = PBXGroup;
+			children = (
+				0008831A15CE69F100D20D43 /* 08ddfcf53c02e82d7eee2e57c38e5672ef89f6 */,
+			);
+			name = 50;
+			path = ../.git/objects/50;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008831B15CE69F100D20D43 /* 56 */ = {
+			isa = PBXGroup;
+			children = (
+				0008831C15CE69F100D20D43 /* 1ab44346c0c9335c33cbf3b5c05a8b1cc7188b */,
+			);
+			name = 56;
+			path = ../.git/objects/56;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008831D15CE69F100D20D43 /* 64 */ = {
+			isa = PBXGroup;
+			children = (
+				0008831E15CE69F100D20D43 /* ee983f412819bc33356fe2778a3a9b49b4bf84 */,
+			);
+			name = 64;
+			path = ../.git/objects/64;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008831F15CE69F100D20D43 /* 66 */ = {
+			isa = PBXGroup;
+			children = (
+				0008832015CE69F100D20D43 /* 50ab6d61ff720f503ee12191e65258f6e2405a */,
+				0008832115CE69F200D20D43 /* 8a246211eac5cb2bc5cda60e3d92b7f4e1d0ae */,
+				0008832215CE69F200D20D43 /* e2e89d977c5e84898fbfd7c13d1649860b1550 */,
+			);
+			name = 66;
+			path = ../.git/objects/66;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008832315CE69F200D20D43 /* 68 */ = {
+			isa = PBXGroup;
+			children = (
+				0008832415CE69F200D20D43 /* 9d9cab95e6e7160b2105cf054c5ec0a7d7a031 */,
+			);
+			name = 68;
+			path = ../.git/objects/68;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008832515CE69F200D20D43 /* 6b */ = {
+			isa = PBXGroup;
+			children = (
+				0008832615CE69F200D20D43 /* d13294d7c337cab03025639d830668e247750f */,
+			);
+			name = 6b;
+			path = ../.git/objects/6b;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008832715CE69F200D20D43 /* 6f */ = {
+			isa = PBXGroup;
+			children = (
+				0008832815CE69F200D20D43 /* a9a27435bbcd424309eabeef28027f6d93e1ed */,
+			);
+			name = 6f;
+			path = ../.git/objects/6f;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008832915CE69F200D20D43 /* 7c */ = {
+			isa = PBXGroup;
+			children = (
+				0008832A15CE69F200D20D43 /* 847d6ec45a156b809646016b3d9cd8a55ca931 */,
+			);
+			name = 7c;
+			path = ../.git/objects/7c;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008832B15CE69F200D20D43 /* 7f */ = {
+			isa = PBXGroup;
+			children = (
+				0008832C15CE69F200D20D43 /* 4a6bb05839d6358792c5601c6cd59b1fe98fd2 */,
+			);
+			name = 7f;
+			path = ../.git/objects/7f;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008832D15CE69F200D20D43 /* 81 */ = {
+			isa = PBXGroup;
+			children = (
+				0008832E15CE69F200D20D43 /* a42a614b4f1f810324acdc7e1aa9d587330a6b */,
+			);
+			name = 81;
+			path = ../.git/objects/81;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008832F15CE69F200D20D43 /* 86 */ = {
+			isa = PBXGroup;
+			children = (
+				0008833015CE69F300D20D43 /* c0b0f4b9fe3a6f06d5d8273b8b129b747aef7d */,
+			);
+			name = 86;
+			path = ../.git/objects/86;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008833115CE69F300D20D43 /* 8b */ = {
+			isa = PBXGroup;
+			children = (
+				0008833215CE69F300D20D43 /* 332c9d51607f8f92339ec542b22b72e7c71a9e */,
+			);
+			name = 8b;
+			path = ../.git/objects/8b;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008833315CE69F300D20D43 /* 8c */ = {
+			isa = PBXGroup;
+			children = (
+				0008833415CE69F300D20D43 /* 1d7977bcd5bfe68cd1b5c5458fa34a341802fe */,
+				0008833515CE69F300D20D43 /* f393d2f3534d50520aaaf1f33ca63c46482eb0 */,
+			);
+			name = 8c;
+			path = ../.git/objects/8c;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008833615CE69F300D20D43 /* 8d */ = {
+			isa = PBXGroup;
+			children = (
+				0008833715CE69F300D20D43 /* 196c1a9045ce176930b824e077bbcb8306da51 */,
+			);
+			name = 8d;
+			path = ../.git/objects/8d;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008833815CE69F300D20D43 /* 90 */ = {
+			isa = PBXGroup;
+			children = (
+				0008833915CE69F300D20D43 /* 2db7ba3e2eff91f4370da4fc8dff9a41502518 */,
+			);
+			name = 90;
+			path = ../.git/objects/90;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008833A15CE69F300D20D43 /* 97 */ = {
+			isa = PBXGroup;
+			children = (
+				0008833B15CE69F400D20D43 /* adc874f02a478e3951fed2ef8a0ed89a3807d6 */,
+			);
+			name = 97;
+			path = ../.git/objects/97;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008833C15CE69F400D20D43 /* aa */ = {
+			isa = PBXGroup;
+			children = (
+				0008833D15CE69F400D20D43 /* 54aed89707db69f1e5eb65874644c82a091900 */,
+			);
+			name = aa;
+			path = ../.git/objects/aa;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008833E15CE69F400D20D43 /* b3 */ = {
+			isa = PBXGroup;
+			children = (
+				0008833F15CE69F400D20D43 /* afbaa035f5b8cd56be9ef9eb5a6a98fdeb2475 */,
+			);
+			name = b3;
+			path = ../.git/objects/b3;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008834015CE69F400D20D43 /* b6 */ = {
+			isa = PBXGroup;
+			children = (
+				0008834115CE69F400D20D43 /* 9d658863b7fad33a6d06adc1eca10d819f9d51 */,
+			);
+			name = b6;
+			path = ../.git/objects/b6;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008834215CE69F400D20D43 /* b8 */ = {
+			isa = PBXGroup;
+			children = (
+				0008834315CE69F400D20D43 /* 7d2870a6aec1ed4a416d4a887a096dd875267d */,
+			);
+			name = b8;
+			path = ../.git/objects/b8;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008834415CE69F400D20D43 /* b9 */ = {
+			isa = PBXGroup;
+			children = (
+				0008834515CE69F400D20D43 /* 4eba2f62ed98aa4efb93f6bd809064d8919b35 */,
+			);
+			name = b9;
+			path = ../.git/objects/b9;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008834615CE69F400D20D43 /* bb */ = {
+			isa = PBXGroup;
+			children = (
+				0008834715CE69F500D20D43 /* bf672fe7e134788c89c62df298a6d64a7abe6d */,
+			);
+			name = bb;
+			path = ../.git/objects/bb;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008834815CE69F500D20D43 /* bd */ = {
+			isa = PBXGroup;
+			children = (
+				0008834915CE69F500D20D43 /* 0adad441003aeeee25c31017104cc3c8d17bfb */,
+			);
+			name = bd;
+			path = ../.git/objects/bd;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008834A15CE69F500D20D43 /* be */ = {
+			isa = PBXGroup;
+			children = (
+				0008834B15CE69F500D20D43 /* 99f9d4578904e0eaa3fa6ebfd707cb81ed9da5 */,
+			);
+			name = be;
+			path = ../.git/objects/be;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008834C15CE69F500D20D43 /* c1 */ = {
+			isa = PBXGroup;
+			children = (
+				0008834D15CE69F500D20D43 /* 0b9e5569773a9a92fb77bff4b172546f25eefa */,
+			);
+			name = c1;
+			path = ../.git/objects/c1;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008834E15CE69F600D20D43 /* d0 */ = {
+			isa = PBXGroup;
+			children = (
+				0008834F15CE69F600D20D43 /* 68a9fb7f3bc150cf26a661d6d9f3ce63eaf72d */,
+			);
+			name = d0;
+			path = ../.git/objects/d0;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008835015CE69F600D20D43 /* da */ = {
+			isa = PBXGroup;
+			children = (
+				0008835115CE69F600D20D43 /* f784c23d2727ddf5d64679cd8577b53d34d3eb */,
+			);
+			name = da;
+			path = ../.git/objects/da;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008835215CE69F600D20D43 /* dd */ = {
+			isa = PBXGroup;
+			children = (
+				0008835315CE69F600D20D43 /* 43530dabf29f9bdbd477559da970b3657cbabb */,
+			);
+			name = dd;
+			path = ../.git/objects/dd;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008835415CE69F600D20D43 /* e3 */ = {
+			isa = PBXGroup;
+			children = (
+				0008835515CE69F600D20D43 /* 2e42edd0b248963a6477987d3a6b2cfb6ef6c3 */,
+			);
+			name = e3;
+			path = ../.git/objects/e3;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008835615CE69F600D20D43 /* e5 */ = {
+			isa = PBXGroup;
+			children = (
+				0008835715CE69F600D20D43 /* db5550a6b84d5f929148a4e4e5053fc59bf7c7 */,
+			);
+			name = e5;
+			path = ../.git/objects/e5;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008835815CE69F600D20D43 /* e7 */ = {
+			isa = PBXGroup;
+			children = (
+				0008835915CE69F600D20D43 /* 96414fda7ac80ec0459d1de540083568ff3135 */,
+			);
+			name = e7;
+			path = ../.git/objects/e7;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008835A15CE69F600D20D43 /* fb */ = {
+			isa = PBXGroup;
+			children = (
+				0008835B15CE69F600D20D43 /* 75f7bdc415565e8f608fd246bcedd1fc8ba59b */,
+			);
+			name = fb;
+			path = ../.git/objects/fb;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008835C15CE69F600D20D43 /* fd */ = {
+			isa = PBXGroup;
+			children = (
+				0008835D15CE69F600D20D43 /* 9f8a4d391568b06975aaac11bbe3964a5ee216 */,
+			);
+			name = fd;
+			path = ../.git/objects/fd;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008835E15CE69F600D20D43 /* info */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = info;
+			path = ../.git/objects/info;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008835F15CE69F600D20D43 /* pack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = pack;
+			path = ../.git/objects/pack;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008836015CE69F600D20D43 /* refs */ = {
+			isa = PBXGroup;
+			children = (
+				0008836115CE69F600D20D43 /* heads */,
+				0008836315CE69F600D20D43 /* remotes */,
+				0008836615CE69F700D20D43 /* tags */,
+			);
+			name = refs;
+			path = ../.git/refs;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008836115CE69F600D20D43 /* heads */ = {
+			isa = PBXGroup;
+			children = (
+				0008836215CE69F600D20D43 /* master */,
+			);
+			name = heads;
+			path = ../.git/refs/heads;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008836315CE69F600D20D43 /* remotes */ = {
+			isa = PBXGroup;
+			children = (
+				0008836415CE69F600D20D43 /* origin */,
+			);
+			name = remotes;
+			path = ../.git/refs/remotes;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008836415CE69F600D20D43 /* origin */ = {
+			isa = PBXGroup;
+			children = (
+				0008836515CE69F700D20D43 /* master */,
+			);
+			name = origin;
+			path = ../.git/refs/remotes/origin;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008836615CE69F700D20D43 /* tags */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = tags;
+			path = ../.git/refs/tags;
+			sourceTree = SOURCE_ROOT;
+		};
+		0008839915CE69F700D20D43 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0008839A15CE69F700D20D43 /* CA1d.h */,
+				0008839B15CE69F700D20D43 /* CA2d.h */,
+				0008839C15CE69F700D20D43 /* CA3d.h */,
+				0008839D15CE69F700D20D43 /* CAdata.h */,
+				0008839E15CE69F700D20D43 /* ofxCellularAutomata.h */,
 			);
 			name = src;
-			path = ../../../addons/ofxCellularAutomata/src;
+			path = ../src;
 			sourceTree = SOURCE_ROOT;
 		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				0088528B15CC46AA00DBB2AB /* ofxCellularAutomata */,
+				000882E515CE69EA00D20D43 /* ofxCellularAutomata */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -318,7 +1005,6 @@
 /* Begin XCBuildConfiguration section */
 		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
@@ -350,7 +1036,6 @@
 		};
 		E4B69B4F0A3A1720003C02F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";

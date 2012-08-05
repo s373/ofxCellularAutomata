@@ -1,4 +1,3 @@
-
 // ofxCellularAutomata - André Sier 2009
 // cellular automata in 1,2,3 dimensions
 

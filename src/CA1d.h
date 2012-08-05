@@ -1,12 +1,3 @@
-/*
- *  CA1d.h
- *  example-ca1d
- *
- *  Created by andré sier on 20120803.
- *  Copyright 2012 __MyCompanyName__. All rights reserved.
- *
- */
-
 #pragma once
 
 #include "CAdata.h"
