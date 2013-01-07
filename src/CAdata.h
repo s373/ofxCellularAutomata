@@ -16,7 +16,7 @@ public:
 	vector<int>	currentGrid, nextGrid, rules;
 	ofPoint		dim;
 	unsigned int numcells, numbit, rule;
-	bool		countSelf;
+//	bool		countSelf;
 
 	
 	 void setRules() {

@@ -14,10 +14,9 @@ public:
 		currentGrid.assign( numcells, 0 );
 		nextGrid.assign( numcells, 0 );
 		
-		setNumBits(11);
+		setNumBits(512);
 		setCenter1();
-		countSelf = true;
-		cout << "CA2d init: " + ofToString(dim.x) + " " + ofToString(dim.y) + " " +ofToString(numcells) + "\n";
+		cout << this << " CA2d init: " + ofToString(dim.x) + " " + ofToString(dim.y) + " " +ofToString(numcells) + "\n";
 	}
 	
 	void set(int locx, int locy, int val) {		
@@ -59,19 +58,17 @@ public:
 	}
 	
 	int countCells(int x, int y) {
-		int count = getCell2D(x, y - 1) + // north
-		getCell2D(x + 1, y - 1) + // northeast
-		getCell2D(x + 1, y) + // east
-		getCell2D(x + 1, y + 1) + // southeast
-		getCell2D(x, y + 1) + // south
-		getCell2D(x - 1, y + 1) + // southwest
-		getCell2D(x - 1, y) + // west
-		getCell2D(x - 1, y - 1); // northwest
 		
-		if(countSelf){
-			count += getCell2D(x,y);
+		int count = 0;
+		for(int i=0; i<9; i++){
+			int lx = i%3;
+			int ly = i/3;
+			if(getCell2D(x+lx-1,y+ly-1)==1){
+				count |= (1<<i);
+			}
+			
 		}
-		
+
 		return count;
 	}
 	

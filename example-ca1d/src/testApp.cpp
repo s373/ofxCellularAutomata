@@ -9,7 +9,7 @@ testApp::testApp(){
 void testApp::setup(){
 
 	ca1d.setup( ofGetWidth() );	
-	ca1d.setRules();
+	ca1d.setRule(110);
 	y = 0;
 	
 	ofSetBackgroundAuto(false);
@@ -51,7 +51,8 @@ void testApp::draw(){
 //--------------------------------------------------------------
 void testApp::keyPressed  (int key){
 
-	setup();
+	//setup();
+	ca1d.setRules();
 	
 }
 

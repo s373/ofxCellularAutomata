@@ -1,4 +1,4 @@
-// ofxCellularAutomata - André Sier 2009
+// ofxCellularAutomata - Andre Sier 2009
 // cellular automata in 1,2,3 dimensions
 
 #pragma once

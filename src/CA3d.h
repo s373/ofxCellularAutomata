@@ -16,10 +16,9 @@ public:
 		currentGrid.assign( numcells, 0 );
 		nextGrid.assign( numcells, 0 );
 		
-		setNumBits(27);
+		setNumBits(134217728);
 		setCenter1();
-		countSelf = true;
-		cout << "CA3d init: " + ofToString(dim.x) +
+		cout << this << " CA3d init: " + ofToString(dim.x) +
 		" " + ofToString(dim.y) + " " + ofToString(dim.z) + " "  +ofToString(numcells) + "\n";
 	}
 	
@@ -64,40 +63,16 @@ public:
 	}
 	
 	int countCells(int x, int y, int z) {
-		int count = getCell3D(x, y - 1, z - 1) + // north
-		getCell3D(x + 1, y - 1, z - 1) + // northeast
-		getCell3D(x + 1, y, z - 1) + // east
-		getCell3D(x + 1, y + 1, z - 1) + // southeast
-		getCell3D(x, y + 1, z - 1) + // south
-		getCell3D(x - 1, y + 1, z - 1) + // southwest
-		getCell3D(x - 1, y, z - 1) + // west
-		getCell3D(x - 1, y - 1, z - 1) + // northwest
 		
-		getCell3D(x, y - 1, z + 1) + // north
-		getCell3D(x + 1, y - 1, z + 1) + // northeast
-		getCell3D(x + 1, y, z + 1) + // east
-		getCell3D(x + 1, y + 1, z + 1) + // southeast
-		getCell3D(x, y + 1, z + 1) + // south
-		getCell3D(x - 1, y + 1, z + 1) + // southwest
-		getCell3D(x - 1, y, z + 1) + // west
-		getCell3D(x - 1, y - 1, z + 1) ;
-
-		
-		if(countSelf){
-			count +=
-				getCell3D(x, y - 1, z) + // north
-				getCell3D(x + 1, y - 1, z) + // northeast
-				getCell3D(x + 1, y, z) + // east
-				getCell3D(x + 1, y + 1, z) + // southeast
-				getCell3D(x, y + 1, z) + // south
-				getCell3D(x - 1, y + 1, z) + // southwest
-				getCell3D(x - 1, y, z) + // west
-				getCell3D(x - 1, y - 1, z);
-			
-			count += getCell3D(x,y,z) + getCell3D(x,y,z-1) + getCell3D(x,y,z+1);
-			
+		int count = 0;
+		for(int i=0; i<27; i++){
+			int lx = i%3;
+			int ly = i/3;
+			int lz = i/9;
+			if(getCell3D(x+lx-1,y+ly-1, z+lz-1)==1){
+				count |= (1<<i);
+			}
 		}
-		
 		
 		return count;
 	}

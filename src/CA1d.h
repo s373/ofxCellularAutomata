@@ -13,11 +13,10 @@ public:
 		currentGrid.assign( numcells, 0 );
 		nextGrid.assign( numcells, 0 );
 
-		setNumBits(4);
+		setNumBits(8);
 		setCenter1();
-		countSelf = true;
 		
-		cout << "CA1d init: " + ofToString(dim.x) + " " + ofToString(numcells) + "\n";
+		cout << this << " CA1d init: " + ofToString(dim.x) + " " + ofToString(numcells) + "\n";
 	}
 	
 	void set(int locx, int val) {
@@ -40,7 +39,7 @@ public:
 			setNextGrid(x, rules[count]);		
 		}
 		
-		//swap grids
+		//swap grids 2do
 		int temp;
 		for(int i=0; i<dim.x; i++){
 			temp =  currentGrid[i] ;
@@ -55,14 +54,14 @@ public:
 			nextGrid[x] = val;
 	}
 	
-	int countCells(int x) {
-		if(countSelf){
-			return currentGrid[x - 1] + currentGrid[x + 1] + currentGrid[x];		
-		} else {
-			return currentGrid[x - 1] + currentGrid[x + 1] ;			
-		}
-		
-		return 0;
+	int countCells(int x) {	
+		//current pattern	111	110	101	100	011	010	001	000
+		int num = 0;
+		for (int i = 0; i < 3; i++) {
+			if (currentGrid[x-1+i] == 1)
+				num |= (1 << i);
+		}		
+		return num;
 	}
 	
 
