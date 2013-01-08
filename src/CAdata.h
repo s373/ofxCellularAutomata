@@ -16,47 +16,60 @@ public:
 	vector<int>	currentGrid, nextGrid, rules;
 	ofPoint		dim;
 	unsigned int numcells, numbit, rule;
-//	bool		countSelf;
 
 	
 	 void setRules() {
-//		 cout << " rule bin: ";
 		for (int i = 0; i < numbit; i++) {
-			rules[i] =  (int) ofRandom(2);//>1?true:false;
-//			cout << " " << ofToString(rules[i]);
+			rules[i] =  (int) ofRandom(2);
 		}
-//		 cout << endl;
 
-		 setCenter1();
+		setCenter1();
 		 
-		 unsigned int num = 0;
-		 for (int i = 0; i < numbit; i++) {
-			 if (rules[i] == 1)
-				 num |= (1 << i);
-		 }
-
-		 rule = num;
-		 
-		 
+		unsigned int num = 0;
+		for (int i = 0; i < numbit; i++) {
+			if (rules[i] == 1)
+				num |= (1 << i);
+		}
+		rule = num;		 
 	}
 	
-	 void setRule(int rule) {
+	
+	void setRule(int rule) {
 		setRules(rule);
 	}
 	
-	 void setRules(int rule) {
-		 this->rule = rule;
-		 int num = rule;
+	void setRules(int rule) {
+		this->rule = rule;
+		int num = rule;
 		
 		for (int i = 0; i < rules.size(); i++) {
 			int rem = num % 2;
 			num = num / 2;
-			rules[i] = rem;//>0?true:false;
+			rules[i] = rem;
 		}
-	}
+	 }
 	
 	 int getRule() {
 		 return rule;
+	 }
+	
+	void setBinaryRule(vector<int> & binrules) {
+		for (int i = 0; i < binrules.size(); i++) {
+			rules[i] = binrules[i];
+		}
+	}
+	
+
+	vector<int> & getBinaryRule() {
+		return rules;
+	}
+
+	string getBinaryRuleString() {
+		string r="";
+		for (int i = 0; i < rules.size(); i++) {
+			r += ofToString(rules[i]);
+		}
+		return r;
 	}
 	
 	
@@ -70,6 +83,12 @@ public:
 			rules.assign(nbits, true);
 			setRules();
 			setCenter1();
+	}
+	
+	void clear(){
+		for(int i=0; i<currentGrid.size();i++){
+			currentGrid[i] = nextGrid[i] = 0;
+		}
 	}
 	
 	
