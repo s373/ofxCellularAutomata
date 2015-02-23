@@ -1,3 +1,12 @@
+/*
+	 ofxCellularAutomata - André Sier 2009
+	 cellular automata in 1,2,3 dimensions
+	 
+	 licensed under lgpl 2.1+
+	 
+	 s373.net/x
+ */
+
 #pragma once
 
 #include "ofMain.h"
@@ -13,12 +22,25 @@ public:
 	virtual void set(...){};
 	
 	
-	vector<int>	currentGrid, nextGrid, rules;
-	ofPoint		dim;
-	unsigned int numcells, numbit, rule;
-
+	vector<int>		currentGrid, nextGrid, rules;
+	ofPoint			dim;
+	unsigned int	numcells, numbit, rule;
+	bool			classic, countself;
 	
-	 void setRules() {
+	
+	CAdata(){
+		numcells = numbit = rule = 0;
+		classic = true; countself = true;
+	}
+	
+	void setClassic(bool cl=true){
+		classic = cl;
+	}
+	void setSelf(bool s=true){
+		countself = s;
+	}
+	
+	void setRules() {
 		for (int i = 0; i < numbit; i++) {
 			rules[i] =  (int) ofRandom(2);
 		}
@@ -34,11 +56,11 @@ public:
 	}
 	
 	
-	void setRule(int rule) {
+	void setRule(unsigned int rule) {
 		setRules(rule);
 	}
 	
-	void setRules(int rule) {
+	void setRules(unsigned int rule) {
 		this->rule = rule;
 		int num = rule;
 		
